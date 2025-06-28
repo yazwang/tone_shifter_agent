@@ -37,4 +37,10 @@ This project is part of the [GenAI Hackathon Mini Challenge #1](https://github.c
 - One or more functional translation examples  
 - 2–4 min demo video explaining process, intention, and result
 
-📂 See [example_cases.md](./example_cases.md) for real-world test cases and tone-sensitive translation examples.
+## 🚀 How to Use
+
+1. Open the `prompt.txt` and insert your English or Chinese message.
+2. Load it into your GenAI model of choice (e.g. GPT-4).
+3. The model will respond with a tone-aware bilingual translation.
+
+See [example_cases.md](./example_cases.md) for style guidance and expectations.
