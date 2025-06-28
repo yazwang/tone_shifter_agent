@@ -36,3 +36,5 @@ This project is part of the [GenAI Hackathon Mini Challenge #1](https://github.c
 - Agent registered on GenAI AgentOS  
 - One or more functional translation examples  
 - 2–4 min demo video explaining process, intention, and result
+
+📂 See [example_cases.md](./example_cases.md) for real-world test cases and tone-sensitive translation examples.
