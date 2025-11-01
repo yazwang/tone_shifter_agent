@@ -1,46 +1,36 @@
-# Tone Shifter Agent
+# Tone_Shifter_Agent
 
-A GenAI-powered bilingual agent that translates between English and Chinese with attention to emotional nuance, tone, and idiomatic expression.  
-Inspired by real-world cross-cultural conversations — especially on Gen Z social media and in casual messaging — this agent aims to preserve emotion and intention across languages.
+![Python](https://img.shields.io/badge/python-3.13-blue)
+![OpenAI](https://img.shields.io/badge/API-OpenAI%20gpt--4o--mini-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active-success)
+
+🧩 *Bridging empathy and precision — a tone-adaptive bilingual chatbot for compliant communication.*
+
+A simple bilingual chatbot built with OpenAI API that shifts tone (neutral, empathetic, professional) in real time for cross-cultural communication.
+
+## ✨ Features
+- **Language Detection:** Automatically detects English or Chinese and replies in the same language.  
+- **Tone Recognition:** Uses sentiment analysis to determine tone automatically.  
+- **Finance Mode:** Generates compliant and empathetic financial communication.  
+- **Graceful Fallback:** Works offline via local templates when API quota is exceeded.  
+- **Evaluation Framework:** Includes `evaluate.py` to compare API vs local reliability, showing *~13% improvement* in tone consistency.  
+
+## 🚀 How to Run
+
+1. **Install dependencies**
+   ···bash
+   pip3 install -r requirements.txt
+
+2. Run the chatbot:
+python3 app.py
+
+3. Type your message and choose a tone.
 
 ---
 
-## 💡 Project Overview
+## 📚 Legacy Prototype
 
-This agent helps users translate sensitive or socially complex messages (such as polite refusals, soft encouragements, indirect expressions) while preserving the intended emotional effect.
-
-## 🧠 Prompt Strategy
-
-The agent is instructed to:
-
-- Avoid robotic or literal translations  
-- Preserve tone, intention, and implied meanings  
-- Handle indirect requests, refusals, and idioms  
-
-See [`prompt.txt`](./prompt.txt) for the full system instruction.
-
-## 🧪 Examples
-
-Example test cases with original input and translated output can be found in [`example_cases.md`](./example_cases.md).
-
-## 📂 Project Files
-
-- `prompt.txt`: system prompt content used by the agent  
-- `example_cases.md`: emotion/idiom-sensitive translation samples  
-- `demo-video-link.txt`: demo recording link (to be added)
-
-## 🎥 Demo Requirements
-
-This project is part of the [GenAI Hackathon Mini Challenge #1](https://github.com/genai-works-org/genai-agentos)
-
-- Agent registered on GenAI AgentOS  
-- One or more functional translation examples  
-- 2–4 min demo video explaining process, intention, and result
-
-## 🚀 How to Use
-
-1. Open the `prompt.txt` and insert your English or Chinese message.
-2. Load it into your GenAI model of choice (e.g. GPT-4).
-3. The model will respond with a tone-aware bilingual translation.
-
-See [example_cases.md](./example_cases.md) for style guidance and expectations.
+Before the tone-adaptive version, an early prototype focused on bilingual translation nuance and emotion-preserving prompts.  
+That version (archived in `GenAI Works Hackathon repo`) explored **prompt-based tone transfer** between English and Chinese.  
+This current project evolved from that idea into a **code-driven real-time system** using OpenAI API and sentiment analysis.
