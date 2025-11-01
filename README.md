@@ -1,4 +1,5 @@
 # Tone_Shifter_Agent
+> Developed by **Yazhi (Esther) Wang**, 2025 — a bilingual tone-adaptive chatbot for empathetic and compliant communication.
 
 ![Python](https://img.shields.io/badge/python-3.13-blue)
 ![OpenAI](https://img.shields.io/badge/API-OpenAI%20gpt--4o--mini-orange)
